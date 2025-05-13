@@ -1,0 +1,28 @@
+#Ignorar archivos generados por IntelliJ IDEA
+.idea/;
+*.iws
+*.iml;
+*.ipr
+#directorios de salida
+out/
+target/
+#archivos de com´pilación java
+*.class
+#archivos temporales
+*.log
+*.tmp
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+# Configuración de entorno o IDE
+*.swp
+*.bak
+
+# Archivos de configuración personal
+.env
+*.local
+
+
+
+
+
