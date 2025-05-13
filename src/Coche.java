@@ -1,9 +1,13 @@
 
+//practica lección 3  - encapsulamiento de atributos
 public class Coche {
-    String marca;
-    String modelo;
-    String color;        //Sesión 1 -
-    int velocidadActual;
+    private String marca;
+    private String modelo;
+    private String color;        //Sesión 1 -
+    private int velocidadActual;
+
+
+
 
     //Crea un constructor para la clase Coche que reciba la marca, el modelo y el color como parámetros y
     // los asigne a los atributos correspondientes, inicializando velocidadActual en 0.
@@ -16,6 +20,38 @@ public class Coche {
     this.color = colorInicial;
     this.velocidadActual = 0;
     }
+
+    //crear métodos setter y getter de los atributos encapsulados
+    // Getters
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getVelocidadActual() {
+        return velocidadActual;
+    }
+
+    // Setters (para algunos atributos)
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setVelocidadActual(int velocidadActual) {
+        if (velocidadActual >= 0) {
+            this.velocidadActual = velocidadActual;
+        } else {
+            System.out.println("La velocidad no puede ser negativa.");
+        }
+    }
+
 
 //CREAR LOS MÉTODOS acelerar(), frenar(), obtenerVelocidad():
 

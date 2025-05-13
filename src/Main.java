@@ -21,8 +21,10 @@ public class Main {
 
         //lección 2   CREAR 2 OBJETOS coche1 y Coche2 con los atributos creados en el constructor de la clase Coche
         // y utilizar los métodos acelerar y frenar
+
+        //LECCIÓN 3 INVOAR LOS MÉTODOS GETTER DE LOS ATRIBUTOS PRIVADOS....getMarca(), getModelo() y getColor().
         Coche coche1 = new Coche("TOYOTA","COROLLA","ROJO");
-        System.out.println("MI PRIMER COCHE ES UN  " + coche1.marca + "- " + coche1.modelo +"- "+ coche1.color);
+        System.out.println("MI PRIMER COCHE ES UN  " + coche1.getMarca()+ "- " + coche1.getModelo()+"- "+ coche1.getColor());
         coche1.acelerar(20);
         coche1.acelerar(30);
         coche1.frenar(20);
@@ -31,7 +33,7 @@ public class Main {
         System.out.println("LA VELOCIDAD ACTUAL ES" + coche1.obtenerVelocidad()+ "  km/h");
 
         Coche coche2 = new Coche("FORD","FOCUS","AZUL");
-        System.out.println("MI SEGUNDO COCHE ES UN "+ coche2.marca + "- "+ coche2.modelo + "- "+ coche2.color);
+        System.out.println("MI SEGUNDO COCHE ES UN "+ coche2.getMarca()+ "- "+ coche2.getModelo() + "- "+ coche2.getColor());
         coche2.acelerar(50);
         coche2.acelerar(70);
         coche2.frenar(100);
