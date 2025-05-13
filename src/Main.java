@@ -2,7 +2,6 @@
 //LECCIÓN 1 - aqui crearemos objetos coche1 y coche2
 public class Main {
     public static void main(String[] args) {
-
     /*    CODIGO DE LA SESIÓN 1 - PRÁCTICA 1
 
         Coche coche1 = new Coche();   //crear un objeto coche
@@ -18,7 +17,6 @@ public class Main {
         System.out.println(" coche1 - MARCA= " + coche1.marca + "  MODELO= " + coche1.modelo + "  COLOR= " + coche1.color);
         System.out.println(" coche2 - MARCA= " + coche2.marca + "  MODELO= " + coche2.modelo + "  COLOR= " + coche2.color);
 */
-
         //lección 2   CREAR 2 OBJETOS coche1 y Coche2 con los atributos creados en el constructor de la clase Coche
         // y utilizar los métodos acelerar y frenar
 

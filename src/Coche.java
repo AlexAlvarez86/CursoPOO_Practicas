@@ -6,9 +6,6 @@ public class Coche {
     private String color;        //Sesión 1 -
     private int velocidadActual;
 
-
-
-
     //Crea un constructor para la clase Coche que reciba la marca, el modelo y el color como parámetros y
     // los asigne a los atributos correspondientes, inicializando velocidadActual en 0.
     // Utiliza la palabra clave this para referirte a los atributos de la clase, para diferenciarlos de los
@@ -52,7 +49,6 @@ public class Coche {
         }
     }
 
-
 //CREAR LOS MÉTODOS acelerar(), frenar(), obtenerVelocidad():
 
     // Método para acelerar el coche
@@ -77,6 +73,4 @@ public class Coche {
         return this.velocidadActual;  //el metodo devuelve o retorna el valor al ser llamado.
     }
 }
-
-
 
