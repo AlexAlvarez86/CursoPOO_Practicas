@@ -1,5 +1,5 @@
 
-//practica lección 3  - encapsulamiento de atributos
+//practica lección 3  - encapsulamiento de atributos y creación de metodos getter y setter
 public class Coche {
     private String marca;
     private String modelo;
@@ -51,7 +51,7 @@ public class Coche {
 
 //CREAR LOS MÉTODOS acelerar(), frenar(), obtenerVelocidad():
 
-    // Método para acelerar el coche
+    // Método para acelerar el coche - suma la velocidad actual mas la velocidad ACELERAR
     public void acelerar(int incremento) {
         this.velocidadActual += incremento;
         //+=  atajo de escritura: equivale a this.velocidadActual = this.velocidadActual + incremento;.
